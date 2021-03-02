@@ -62,13 +62,13 @@ function adjustPdfIframe(iframe, sideBarOpen) {
   reactHandle.style.display = 'none';
   reactParent.style.width = '100%';
   reactParent.style.height = '100%';
-  if (sideBarOpen) {
+  //if (sideBarOpen) {
     hoverParent.style.width = '100%';
     hoverParent.style.height = '100%';
-  } else {
-    hoverParent.style.width = `${pdfParams.pdfStaticWidth}px`
-    hoverParent.style.height = `${pdfParams.pdfStaticHeight}px`
-  }
+  //} else {
+  //  hoverParent.style.width = `${pdfParams.pdfStaticWidth}px`
+  //  hoverParent.style.height = `${pdfParams.pdfStaticHeight}px`
+  //}
 }
 /************************Main END***********************/
 /*******************************************************/
